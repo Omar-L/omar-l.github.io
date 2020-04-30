@@ -1,90 +1,81 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <title>Portfolio Home: Omar Lopez</title>
-      <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
-      <link rel="stylesheet" href="styles/main.css">
-      <link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
-      <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
-      <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
-      <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
-      <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
-      <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
-      <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
-      <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
-      <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
-      <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
-      <link rel="icon" type="image/png" sizes="192x192"  href="images/favicon/android-icon-192x192.png">
-      <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-<!--      <link rel="manifest" href="images/favicon/manifest.json">-->
-      <meta name="msapplication-TileColor" content="#ffffff">
-      <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-      <meta name="theme-color" content="#ffffff">
-   </head>
-   <body>
-      <header>
-         <picture>
-            <source media="(min-width: 466px)" srcset="images/profile-picture.webp">
-            <source media="(max-width: 465px)" srcset="images/profile-picture.jpg">
-            <img src="images/profile-picture.webp" class="clip-circle" draggable="false" alt="Profile Picture">
-         </picture>
-         <h1 class="non-select"><span class="bracket-color">[</span>Omar Lopez<span class="bracket-color">]</span></h1>
-      </header>
-      <main>
-	  <nav id="navigation_menu">
-         <ul class="non-select">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="aboutme.html">About Me</a></li>
-            <li><a href="experience.html">Experience</a></li>
-            <li><a href="contactme.html">Contact Me</a></li>
-         </ul>
-	  </nav>
-         <section>
-            <div class="container">
-               <div class="container-left">
-                  <h2>Welcome</h2>
-                  <h3>Introductory Message</h3>
-                  <p>Welcome to my personal page. This website has been created to fulfill the final project requirements for my <i>Web Authoring I</i> course at Santa Fe College.</p><br>
-                  <h3>Specifications</h3>
-                  <p>The specifications for this project can be found <a href="documents/final-project-specifications.pdf">on this document</a>. Be advised, you will need Adobe Reader DC to be able to open it. <a href="https://acrobat.adobe.com/us/en/acrobat/pdf-reader.html">Click here</a> to download it.</p>
-
-                  <h2>Organization</h2>
-
-                  <h3>Structure</h3>
-                  <p>This website is organized into the four following sections.</p><br>
-                  <ol>
-                     <li>Home</li>
-                     <li>About Me</li>
-                     <li>Experience</li>
-                     <li>Contact Me</li>
-                  </ol>
-                  <br><p>Each section contains the information as titled.</p><br>
-
-                  <h3>Design</h3>
-                  <p>This website has been designed with Google Chrome and iOS Safari in mind; with special considerations taken for the iPhone X.</p>
-
-                  <br><h3>Acknowledgements</h3>
-                  <p>Although the good majority of the content in this website has been produced by me, certain portions I have borrowed with permission of the content producer. Although Google Fonts do not require license attribution, the following fonts were used under the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a>.</p>
-                  <br><p>These are the following:</p><br>
-                  <ol>
-                     <li>Google <i>Open Sans</i></li>
-                     <li>Google <i>Open Sans Condensed</i></li>
-                  </ol>
-                  <br>
-               </div>
-               <div class="container-right">
-                  <img id="intro_image" src="images/Watermelon-Festival.jpg">
-               </div>
+<head>
+    <meta charset="UTF-8">
+    <title>Omar López</title>
+    <link rel="stylesheet" href="static/style.css">
+    <script src="https://kit.fontawesome.com/1567f8443c.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
+    <link rel="manifest" href="images/icons/site.webmanifest">
+</head>
+<body>
+    <header>
+        <video autoplay muted loop id="video-header"><source src="videos/video.mp4" type="video/mp4"></video>
+        <p>Hello, I'm</p>
+        <div class="title-container">
+            <div class="emdash">———</div>
+            <div class="title">&nbsp;Omar López&nbsp;</div>
+            <div class="emdash">———</div>
+        </div>
+    </header>
+    <nav>
+        <a href="index.html"><i class="fa fa-fw fa-home"></i>&nbsp;Home</a>
+        <a href="work.html"><i class="fas fa-file"></i>&nbsp;Work</a>
+        <a href="reachout.html"><i class="fa fa-fw fa-envelope"></i>&nbsp;Reach Out</a>
+    </nav>
+    <div class="general">
+        <div class="aside">
+            <h2>About Me</h2>
+            <p>My name is Omar López, and I am a systems developer.</p>
+            <img alt="Omar Lopez Profile Picture" src="images/omarlopez.jpg">
+            <h2>Work</h2>
+            <p>I work at the University of Florida's Interdisciplinary Center for Biotechnology Research (ICBR).</p>
+            
+            <h2>School</h2>
+            <p>I attend Santa Fe College in Gainesville, FL where I am seeking a <i>Bachelor of Applied Science</i>.</p>
+        </div>
+        <div class="main">
+            <div style="flex-grow: 0">
+            <h2>Short Introduction</h2>
+            <p>Being born and raised in a Caribbean paradise tends to warp your worldview significantly. I recall being quite young and sitting in the back seat as my parents drove through the mountains in Puerto Rico and being able to see the coastline from my vantage point, and thinking—ignorantly, of course—“that is the end of the world!”</p>
+            <p>Thinking back, I believe that, to some extent, that was true. All my experiences, my life events, my entire history was constrained by that ‘coastline’ by that barrier to the rest of the world. To me there was nothing more past that point. </p>
             </div>
-         </section>
-      </main>
-      <footer>
-         <p class="non-select">&copy; <script type="text/javascript">
-            document.write(new Date().getFullYear());
-         </script> Omar Lopez, Student<br>Santa Fe College, Gainesville, FL 32606</p>
-      </footer>
-   </body>
+
+            <div style="flex-grow: 0">
+            <h2>Where I Stand</h2>
+            <p>My name is <b>Alexis Omar López</b>, but I go by my middle name: “Omar.” Professionally, I currently form a part of the Cyberinfrastructure group at the University of Florida's Interdisciplinary Center for Biotechnology Research (ICBR) as a <i>Senior Scientific Systems Developer</i>.</p>
+            <p>I was born in the Commonwealth of Puerto Rico—a U.S. territory—but I have been living in the State of Florida for over a decade and a half. I am currently working towards the completion of my <i>Bachelor of Applied Science</i> (BAS) in Information Systems Technology (IST) with a concentration in Programming &amp; Analysis. I hope this will help me have attain a well-rounded set of tools for my technical career.</p>
+            </div>
+
+            <div class="button-area" style="flex-grow: 3">
+                <a href="mailto:alexis.omar.lopez+reachout@gmail.com"><button><i class="fa fa-fw fa-envelope"></i>&nbsp;Reach Out</button></a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="general">
+            <div class="social column">
+                <div style="font-family: 'Pacifico', serif; font-size: 3em">Social...</div>
+                <div class="icons">
+                    <a href="https://www.facebook.com/alexis.omar.lopez" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://twitter.com/omar_l" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://www.linkedin.com/in/alexisomarlopez/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="column">
+            </div>
+            <div class="embed column">
+                <a class="twitter-timeline" data-width="300" data-height="400" data-dnt="true" href="https://twitter.com/Omar_L?ref_src=twsrc%5Etfw">Tweets by Omar_L</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy;&nbsp;2020 Omar López. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
 </html>
