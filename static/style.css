@@ -10,7 +10,7 @@ header {
     padding: 10em;
 
     /*Hero Image Styles*/
-    background-image: url("../images/caribbean-beach.png") ;
+    background-image: url("../images/code.jpg") ;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -36,14 +36,10 @@ header .title-container {
     align-items: center;
 }
 header .title {
-    font-size: 4em;
+    font-size: 8em;
     font-family: 'Quicksand', sans-serif;
     letter-spacing: -.0696em;
     white-space: nowrap;
-}
-header .emdash {
-    font-size: 1.5em;
-    font-family: sans-serif;
 }
 
 /*Navigation*/
