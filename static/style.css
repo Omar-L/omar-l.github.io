@@ -9,6 +9,13 @@ header {
     text-align: center;
     padding: 10em;
 
+    /*Hero Image Styles*/
+    background-image: url("../images/caribbean-beach.png") ;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
     /*No Select*/
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -16,22 +23,6 @@ header {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-}
-#video-header {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background: url(../images/caribbean-beach.png) no-repeat;
-    background-size: cover;
 }
 header p {
     font-style: italic;
@@ -210,16 +201,8 @@ table tr td:nth-child(2) {
     width: 33%;
 }
 @media screen and (max-width: 835px) {
-    #video-header {
-        display: none;
-    }
     header {
         padding: 5em;
-        background-image: url("../images/caribbean-beach.png") ;
-        background-size: cover;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
     }
     header .title {
         font-size: 3.5em;
