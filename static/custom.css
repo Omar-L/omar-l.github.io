@@ -1,0 +1,16 @@
+header .display-6 {
+    font-family: 'Pacifico', serif;
+    font-style: italic;
+}
+header .display-4 {
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing:  -.0696em;
+}
+footer h2 {
+    font-family: 'Pacifico', serif;
+    font-size: 3em;
+}
+footer section div i {
+    color: white;
+    padding: 1rem;
+}
