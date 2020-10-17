@@ -1,22 +1,21 @@
 /*
     Color Palette: https://colorhunt.co/palette/206818
 */
-
-
-header .display-6 {
-    font-family: 'Pacifico', serif;
-    font-style: italic;
-}
-header .display-4 {
+* {
     font-family: 'Quicksand', sans-serif;
+    font-size: 102%;
+}
+header .display-3 {
     letter-spacing:  -.0696em;
 }
 .jumbotron {
     border-radius: 0;
 }
-footer h2 {
+.font-quicksand {
+    font-family: 'Quicksand', sans-serif;
+}
+.font-pacifico {
     font-family: 'Pacifico', serif;
-    font-size: 3em;
 }
 /* Backgrounds */
 .bg-primary {
