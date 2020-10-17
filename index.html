@@ -48,7 +48,7 @@
 <!--    </script>-->
 </head>
 <body>
-    <header class="jumbotron d-flex flex-column align-items-center mb-0">
+    <header class="jumbotron d-flex flex-column align-items-center mb-0 text-white bg-primary">
         <h1 class="display-6 text-nowrap">Hello, I'm</h1>
         <h2 class="display-4 text-nowrap">Omar López</h2>
     </header>
@@ -58,15 +58,15 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa fa-fw fa-home"></i>&nbsp;Home</a></li>
+                <li class="nav-item"><a class="nav-link active" href="index.html"><i class="fa fa-fw fa-home"></i>&nbsp;Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="work.html"><i class="fas fa-file"></i>&nbsp;Work</a></li>
                 <li class="nav-item"><a class="nav-link" href="reachout.html"><i class="fa fa-fw fa-envelope"></i>&nbsp;Reach Out</a></li>
             </ul>
         </div>
     </nav>
-    <main class="container-fluid mb-3">
-        <section class="row mt-3 d-flex flex-column flex-md-row flex-lg-row">
-            <aside class="col-md-3 col-lg-3">
+    <main class="container-fluid">
+        <section class="row d-flex flex-column flex-md-row flex-lg-row">
+            <aside class="col-md-3 col-lg-3 bg-secondary p-3">
                 <h2>About Me</h2>
                     <p>My name is Omar López, and I am a systems developer.</p>
                     <img class="img-thumbnail shadow mb-3" alt="Omar Lopez Profile Picture" src="images/omarlopez.jpg">
@@ -77,15 +77,17 @@
                 <h2>School</h2>
                     <p>I attend Santa Fe College in Gainesville, FL where I am seeking a <i>Bachelor of Applied Science</i>.</p>
             </aside>
-            <section class="col">
-                <h2>Short Introduction</h2>
-                <p>Being born and raised in a Caribbean paradise tends to warp your worldview significantly. I recall being quite young and sitting in the back seat as my parents drove through the mountains in Puerto Rico and being able to see the coastline from my vantage point, and thinking—ignorantly, of course—“that is the end of the world!”</p>
-                <p>Thinking back, I believe that, to some extent, that was true. All my experiences, my life events, my entire history was constrained by that ‘coastline’ by that barrier to the rest of the world. To me there was nothing more past that point. </p>
+            <section class="d-flex flex-column col p-3">
+                <div class="d-flex flex-column flex-grow-0">
+                    <h2>Short Introduction</h2>
+                    <p>Being born and raised in a Caribbean paradise tends to warp your worldview significantly. I recall being quite young and sitting in the back seat as my parents drove through the mountains in Puerto Rico and being able to see the coastline from my vantage point, and thinking—ignorantly, of course—“that is the end of the world!”</p>
+                    <p>Thinking back, I believe that, to some extent, that was true. All my experiences, my life events, my entire history was constrained by that ‘coastline’ by that barrier to the rest of the world. To me there was nothing more past that point. </p>
 
-                <h2>Where I Stand</h2>
-                <p>My name is <strong>Alexis Omar López</strong>, but I go by my middle name: “Omar.” Professionally, I currently form a part of the Cyberinfrastructure group at the University of Florida's Interdisciplinary Center for Biotechnology Research (ICBR) as a <i>Senior Scientific Systems Developer</i>.</p>
-                <p>I was born in the Commonwealth of Puerto Rico—a U.S. territory—but I have been living in the State of Florida for over a decade and a half. I am currently working towards the completion of my <i>Bachelor of Applied Science</i> (BAS) in Information Systems Technology (IST) with a concentration in Programming &amp; Analysis. I hope this will help me attain a well-rounded set of tools for my technical career.</p>
-                <div class="w-100 d-flex justify-content-center">
+                    <h2>Where I Stand</h2>
+                    <p>My name is <strong>Alexis Omar López</strong>, but I go by my middle name: “Omar.” Professionally, I currently form a part of the Cyberinfrastructure group at the University of Florida's Interdisciplinary Center for Biotechnology Research (ICBR) as a <i>Senior Scientific Systems Developer</i>.</p>
+                    <p>I was born in the Commonwealth of Puerto Rico—a U.S. territory—but I have been living in the State of Florida for over a decade and a half. I am currently working towards the completion of my <i>Bachelor of Applied Science</i> (BAS) in Information Systems Technology (IST) with a concentration in Programming &amp; Analysis. I hope this will help me attain a well-rounded set of tools for my technical career.</p>
+                </div>
+                <div class="d-flex flex-grow-1 flex-column justify-content-center align-items-center">
                     <a href="mailto:alexis.omar.lopez+reachout@gmail.com">
                         <button class="btn btn-primary">
                             <i class="fa fa-fw fa-envelope"></i>&nbsp;Reach Out
@@ -95,17 +97,19 @@
             </section>
         </section>
     </main>
-    <footer class="d-flex flex-column bg-dark text-white p-3">
-        <section class="d-flex flex-row justify-content-between">
-            <section class="d-flex flex-column justify-content-center align-items-center flex-column w-50">
+    <footer class="bg-dark d-flex flex-column">
+        <section class="d-flex flex-column pt-5 flex-md-row flex-lg-row justify-content-around">
+        <!--Social Icons-->
+            <section class="d-flex flex-column justify-content-center align-items-center text-white">
                 <h2>Social&hellip;</h2>
                 <div class="icons">
-                    <a href="https://www.facebook.com/alexis.omar.lopez" target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a>
-                    <a href="https://twitter.com/omar_l" target="_blank"><i class="fab fa-twitter-square fa-3x"></i></a>
-                    <a href="https://www.linkedin.com/in/alexisomarlopez/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+                    <a href="https://www.facebook.com/alexis.omar.lopez" target="_blank"><i class="fab fa-facebook-square fa-3x text-white p-2"></i></a>
+                    <a href="https://twitter.com/omar_l" target="_blank"><i class="fab fa-twitter-square fa-3x text-white p-2"></i></a>
+                    <a href="https://www.linkedin.com/in/alexisomarlopez/" target="_blank"><i class="fab fa-linkedin fa-3x text-white p-2"></i></a>
                 </div>
             </section>
-            <section class="d-flex justify-content-center align-items-center w-50">
+        <!--Twitter Timeline-->
+            <section class="d-none d-md-flex d-lg-flex flex-column justify-content-center align-items-center">
                 <a class="twitter-timeline" data-width="300" data-height="400" data-dnt="true" href="https://twitter.com/Omar_L?ref_src=twsrc%5Etfw">Tweets by Omar_L</a>
                 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </section>

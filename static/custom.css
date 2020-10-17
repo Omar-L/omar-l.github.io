@@ -1,3 +1,8 @@
+/*
+    Color Palette: https://colorhunt.co/palette/206818
+*/
+
+
 header .display-6 {
     font-family: 'Pacifico', serif;
     font-style: italic;
@@ -6,11 +11,29 @@ header .display-4 {
     font-family: 'Quicksand', sans-serif;
     letter-spacing:  -.0696em;
 }
+.jumbotron {
+    border-radius: 0;
+}
 footer h2 {
     font-family: 'Pacifico', serif;
     font-size: 3em;
 }
-footer section div i {
+/* Backgrounds */
+.bg-primary {
+    background-color: #679b9b!important;
+}
+.bg-secondary {
+    background-color: #ffeadb!important;
+}
+
+/*Buttons*/
+.btn-primary {
+    background-color: #679b9b;
+    border-color: #679b9b;
     color: white;
-    padding: 1rem;
+}
+.btn-primary:active, .btn-primary:hover, .btn-primary:focus {
+    background-color: #ffeadb!important;
+    border-color: #ffeadb!important;
+    color: black!important;
 }
