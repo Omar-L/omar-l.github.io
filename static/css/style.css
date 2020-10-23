@@ -23,10 +23,10 @@ header {
     user-select: none;
 }
 #main-header {
-    background-image: url("../images/code.jpg");
+    background-image: url("../../images/code.jpg");
 }
 #contact-header {
-    background-image: url("../images/letters.jpg") ;
+    background-image: url("../../images/letters.jpg") ;
 }
 header p {
     font-style: italic;
